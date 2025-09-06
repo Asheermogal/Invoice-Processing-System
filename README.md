@@ -1,4 +1,6 @@
-﻿# Invoice-Processing-System
+﻿![CI](https://github.com/Asheermogal/Invoice-Processing-System/actions/workflows/ci-python.yml/badge.svg)
+
+# Invoice-Processing-System
 
 ## Overview
 Brief description.
@@ -12,4 +14,5 @@ How to run.
 
 ---
 © 2025 Asheer Mogal — All rights reserved.
+
 
