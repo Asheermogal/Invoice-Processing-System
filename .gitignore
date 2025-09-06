@@ -14,3 +14,6 @@ Thumbs.db
 *.gz
 *.exe# Jupyter
 .ipynb_checkpoints/
+
+desktop.ini
+
