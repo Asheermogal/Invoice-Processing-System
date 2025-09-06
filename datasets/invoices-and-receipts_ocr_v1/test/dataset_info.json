@@ -1,0 +1,69 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "invoices-and-receipts_ocr_v1",
+  "dataset_size": 378113481,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mychen76/invoices-and-receipts_ocr_v1@83835c87346de32ac9223bdce5264e69ef3366ad/data/train-00000-of-00001-76ffc8319f74dd65.parquet": {
+      "num_bytes": 248807407,
+      "checksum": null
+    },
+    "hf://datasets/mychen76/invoices-and-receipts_ocr_v1@83835c87346de32ac9223bdce5264e69ef3366ad/data/test-00000-of-00001-af2d92d1cee28514.parquet": {
+      "num_bytes": 18778462,
+      "checksum": null
+    },
+    "hf://datasets/mychen76/invoices-and-receipts_ocr_v1@83835c87346de32ac9223bdce5264e69ef3366ad/data/valid-00000-of-00001-894b4e1f736b5732.parquet": {
+      "num_bytes": 14079730,
+      "checksum": null
+    }
+  },
+  "download_size": 281665599,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "parsed_data": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "raw_data": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 659779080,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 331975075,
+      "num_examples": 2043,
+      "dataset_name": "invoices-and-receipts_ocr_v1"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 23811234,
+      "num_examples": 125,
+      "dataset_name": "invoices-and-receipts_ocr_v1"
+    },
+    "valid": {
+      "name": "valid",
+      "num_bytes": 22327172,
+      "num_examples": 70,
+      "dataset_name": "invoices-and-receipts_ocr_v1"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

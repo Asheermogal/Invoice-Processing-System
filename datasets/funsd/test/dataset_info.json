@@ -1,0 +1,80 @@
+{
+  "builder_name": "funsd",
+  "citation": "@article{Jaume2019FUNSDAD,\n  title={FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents},\n  author={Guillaume Jaume and H. K. Ekenel and J. Thiran},\n  journal={2019 International Conference on Document Analysis and Recognition Workshops (ICDARW)},\n  year={2019},\n  volume={2},\n  pages={1-6}\n}\n",
+  "config_name": "funsd",
+  "dataset_name": "funsd",
+  "dataset_size": 1660819,
+  "description": "https://guillaumejaume.github.io/FUNSD/\n",
+  "download_checksums": {
+    "https://guillaumejaume.github.io/FUNSD/dataset.zip": {
+      "num_bytes": 16838830,
+      "checksum": null
+    }
+  },
+  "download_size": 16838830,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "words": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "bboxes": {
+      "feature": {
+        "feature": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "ner_tags": {
+      "feature": {
+        "names": [
+          "O",
+          "B-HEADER",
+          "I-HEADER",
+          "B-QUESTION",
+          "I-QUESTION",
+          "B-ANSWER",
+          "I-ANSWER"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "Sequence"
+    },
+    "image_path": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://guillaumejaume.github.io/FUNSD/",
+  "license": "",
+  "size_in_bytes": 18499649,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1189549,
+      "num_examples": 149,
+      "dataset_name": "funsd"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 471270,
+      "num_examples": 50,
+      "dataset_name": "funsd"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
